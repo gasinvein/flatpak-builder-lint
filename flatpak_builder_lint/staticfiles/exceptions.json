@@ -747,7 +747,9 @@
         "appid-uses-code-hosting-domain": "app-id predates this linter rule"
     },
     "org.telegram.desktop": {
-        "appid-uses-code-hosting-domain": "app-id predates this linter rule"
+        "appid-ends-with-lowercase-desktop": "app-id predates this linter rule",
+        "flathub-json-skip-appstream-check": "Upstream changes to metainfo, if fails validation, can block otherwise automatic updates",
+        "module-yasm-cmake-no-debuginfo": "Build-time only dependency, debuginfo is useless"
     },
     "com.gitlab.adnan338.Invoicer": {
         "appid-uses-code-hosting-domain": "app-id predates this linter rule"
